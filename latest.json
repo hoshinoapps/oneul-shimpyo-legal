@@ -1,9 +1,9 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "minVersion": "1.0.0",
   "notes": {
-    "ko": "위젯 4종과 더 부드러운 스플래시 화면이 추가되었어요.",
-    "ja": "ウィジェット4種とより滑らかなスプラッシュ画面が追加されました。",
-    "en": "4 home screen widgets and a smoother splash screen added."
+    "ko": "새 버전이 나오면 앱에서 바로 알려드릴게요.",
+    "ja": "新しいバージョンが出たら、アプリ内でお知らせします。",
+    "en": "We'll let you know in-app when a new version is ready."
   }
 }
