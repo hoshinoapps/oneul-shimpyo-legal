@@ -1,9 +1,9 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.0",
   "minVersion": "1.0.0",
   "notes": {
-    "ko": "위젯 4종 추가, 스플래시 개선, 자동 업데이트 알림이 추가되었어요.",
-    "ja": "ウィジェット4種追加、スプラッシュ改善、アップデート通知を追加しました。",
-    "en": "4 home screen widgets, smoother splash, and update notifications added."
+    "ko": "위젯 4종과 더 부드러운 스플래시 화면이 추가되었어요.",
+    "ja": "ウィジェット4種とより滑らかなスプラッシュ画面が追加されました。",
+    "en": "4 home screen widgets and a smoother splash screen added."
   }
 }
