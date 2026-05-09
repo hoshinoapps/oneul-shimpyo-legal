@@ -161,9 +161,10 @@
     <tr><td>대략적 위치<br>(IP 주소 기반 국가/지역)</td><td>지역별 사용 패턴 분석</td></tr>
     <tr><td>Firebase 앱 인스턴스 ID<br>(가명 식별자)</td><td>동일 사용자 세션 식별 (개인 식별 불가)</td></tr>
     <tr><td>광고 식별자(ADID)</td><td>분석 목적에만 활용 — <strong>광고 노출에는 사용되지 않음</strong></td></tr>
+    <tr><td>크래시·ANR 보고서<br>(스택 트레이스·기기 상태)</td><td>앱 비정상 종료 원인 분석 및 안정성 개선 (Firebase Crashlytics)</td></tr>
   </tbody>
 </table>
-<p>이 데이터는 Google이 운영하는 Firebase 인프라에 저장되며, <strong>제3자에게 공유되거나 광고 타겟팅에 이용되지 않습니다.</strong> 본 앱은 광고 SDK를 사용하지 않습니다.</p>
+<p>이 데이터는 Google이 운영하는 Firebase 인프라(Analytics·Crashlytics)에 저장되며, <strong>제3자에게 공유되거나 광고 타겟팅에 이용되지 않습니다.</strong> 본 앱은 광고 SDK를 사용하지 않습니다.</p>
 <p>이용자는 다음 방법으로 분석 데이터 수집을 제어할 수 있습니다:</p>
 <ul>
   <li>Android 시스템 설정 → Google → 광고 → <strong>"광고 ID 재설정"</strong> 또는 <strong>"광고 맞춤설정 선택 해제"</strong></li>
@@ -223,6 +224,7 @@
   <tbody>
     <tr><td>1.0</td><td>2026-04-23</td><td>최초 제정</td></tr>
     <tr><td>1.1</td><td>2026-04-29</td><td>§1.2 분석 데이터 수집 항목 명시 (Google Analytics for Firebase). §6에서 분석 도구 항목 제거 (현재 적용 중이므로).</td></tr>
+    <tr><td>1.2</td><td>2026-05-10</td><td>§1.2 크래시·ANR 보고서 항목 추가 (Firebase Crashlytics 연동).</td></tr>
   </tbody>
 </table>
 

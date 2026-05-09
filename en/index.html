@@ -161,9 +161,10 @@ Today's Pause (the "App") respects your privacy and follows applicable privacy a
     <tr><td>Approximate location<br>(country/region based on IP address)</td><td>Regional usage pattern analysis</td></tr>
     <tr><td>Firebase App Instance ID<br>(pseudonymous identifier)</td><td>Identifying same-user sessions (cannot identify individuals)</td></tr>
     <tr><td>Advertising ID (ADID)</td><td>Used only for analytics purposes — <strong>not used for advertising delivery</strong></td></tr>
+    <tr><td>Crash and ANR reports<br>(stack traces, device state)</td><td>Diagnose abnormal app terminations and improve stability (Firebase Crashlytics)</td></tr>
   </tbody>
 </table>
-<p>This data is stored on the Firebase infrastructure operated by Google, and is <strong>not shared with third parties or used for advertising targeting.</strong> The App does not use any advertising SDK.</p>
+<p>This data is stored on the Firebase infrastructure operated by Google (Analytics, Crashlytics), and is <strong>not shared with third parties or used for advertising targeting.</strong> The App does not use any advertising SDK.</p>
 <p>You can control the collection of analytics data through the following methods:</p>
 <ul>
   <li>Android system settings → Google → Ads → <strong>"Reset advertising ID"</strong> or <strong>"Opt out of Ads Personalization"</strong></li>
@@ -223,6 +224,7 @@ Today's Pause (the "App") respects your privacy and follows applicable privacy a
   <tbody>
     <tr><td>1.0</td><td>2026-04-23</td><td>Initial release</td></tr>
     <tr><td>1.1</td><td>2026-04-29</td><td>§1.2 — Explicitly disclosed analytics data collection (Google Analytics for Firebase). Removed analytics from §6 (now actively in use).</td></tr>
+    <tr><td>1.2</td><td>2026-05-10</td><td>§1.2 — Added crash and ANR report collection (Firebase Crashlytics integration).</td></tr>
   </tbody>
 </table>
 

@@ -161,9 +161,10 @@
     <tr><td>大まかな位置情報<br>(IPアドレスに基づく国/地域)</td><td>地域別の利用パターンの分析</td></tr>
     <tr><td>FirebaseアプリインスタンスID<br>(仮名識別子)</td><td>同一ユーザーセッションの識別 (個人特定不可)</td></tr>
     <tr><td>広告識別子(ADID)</td><td>分析目的にのみ利用 — <strong>広告の表示には使用されません</strong></td></tr>
+    <tr><td>クラッシュ・ANRレポート<br>(スタックトレース・端末状態)</td><td>アプリの異常終了原因の分析と安定性向上 (Firebase Crashlytics)</td></tr>
   </tbody>
 </table>
-<p>これらのデータはGoogleが運営するFirebaseインフラ上に保存され、<strong>第三者への共有や広告ターゲティングには利用されません。</strong> 本アプリは広告SDKを使用していません。</p>
+<p>これらのデータはGoogleが運営するFirebaseインフラ(Analytics・Crashlytics)上に保存され、<strong>第三者への共有や広告ターゲティングには利用されません。</strong> 本アプリは広告SDKを使用していません。</p>
 <p>利用者は以下の方法で分析データの収集を制御できます:</p>
 <ul>
   <li>Androidシステム設定 → Google → 広告 → <strong>「広告IDをリセット」</strong> または <strong>「広告のカスタマイズをオプトアウト」</strong></li>
@@ -223,6 +224,7 @@
   <tbody>
     <tr><td>1.0</td><td>2026-04-23</td><td>初版制定</td></tr>
     <tr><td>1.1</td><td>2026-04-29</td><td>§1.2 分析データの収集項目を明示(Google Analytics for Firebase)。§6から分析ツール項目を削除(現在運用中のため)。</td></tr>
+    <tr><td>1.2</td><td>2026-05-10</td><td>§1.2 にクラッシュ・ANRレポートの項目を追加(Firebase Crashlytics連携)。</td></tr>
   </tbody>
 </table>
 
